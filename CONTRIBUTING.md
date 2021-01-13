@@ -1,6 +1,7 @@
 Contributing to Bitcoin Core
 ============================
 
+
 The Bitcoin Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
@@ -13,6 +14,7 @@ the developer community. However, some hierarchy is necessary for practical
 purposes. As such there are repository "maintainers" who are responsible for
 merging pull requests as well as a "lead maintainer" who is responsible for the
 release cycle, overall merging, moderation and appointment of maintainers.
+
 
 
 Contributor Workflow
@@ -90,6 +92,7 @@ patch does together with any justification/reasoning. You should include
 references to any discussions (for example other tickets or mailing list
 discussions).
 
+
 At this stage one should expect comments and review from other contributors. You
 can add more commits to your pull request by committing them locally and pushing
 to your fork until you have satisfied all feedback.
@@ -121,6 +124,7 @@ The length of time required for peer review is unpredictable and will vary from
 pull request to pull request.
 
 
+
 Pull Request Philosophy
 -----------------------
 
@@ -130,6 +134,7 @@ pull requests which attempt to do too much, are overly large, or overly complex
 as this makes review difficult.
 
 
+
 ###Features
 
 When adding a new feature, thought must be given to the long term technical debt
@@ -137,6 +142,7 @@ and maintenance that feature may require after inclusion. Before proposing a new
 feature that will require maintenance, please consider if you are willing to
 maintain it (including bug fixing). If features get orphaned with no maintainer
 in the future, they may be removed by the Repository Maintainer.
+
 
 
 ###Refactoring
@@ -152,6 +158,7 @@ behaviour of code within the pull request (bugs must be preserved as is).
 
 Project maintainers aim for a quick turnaround on refactoring pull requests, so
 where possible keep them short, uncomplex and easy to verify.
+
 
 
 "Decision Making" Process
@@ -185,6 +192,7 @@ extensive mailing list discussions and have a numbered BIP. While each case will
 be different, one should be prepared to expend more time and effort than for
 other kinds of patches because of increased peer review and consensus building
 requirements.
+
 
 
 ###Peer Review
@@ -226,13 +234,16 @@ discussed BIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
 
 
+
 Release Policy
 --------------
 
 The project leader is the release manager for each Bitcoin Core release.
 
+
 Copyright
 ---------
+
 
 By contributing to this repository, you agree to license your work under the 
 MIT license unless specified otherwise in `contrib/debian/copyright` or at 
